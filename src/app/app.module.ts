@@ -12,7 +12,7 @@ import { PostProductsService } from './services';
 import { GetProductsService } from './services';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'products', pathMatch: 'full' },
+  { path: '', redirectTo: 'productEntry', pathMatch: 'full' },
   { path: 'productEntry', component: ProductEntryComponent },
   { path: 'products', component: ProductsComponent }
 ];
@@ -27,6 +27,7 @@ const routes: Routes = [
   imports: [
     BrowserModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forRoot(routes)
   ],
   providers: [HttpClientService,

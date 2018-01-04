@@ -27,7 +27,8 @@
       <input #id name="id" class="form-control" required>
     </div>
     <div class="form-group">
-      <label for="productName">Product Name:</label> <input #productName name="productName" class="form-control" required>
+      <label for="productName">Product Name:</label>
+       <input #productName name="productName" class="form-control" required>
     </div>
     <div class="form-group">
       <label for="productPrice"> Product Price:</label><input #price name="price" class="form-control" required>
@@ -50,7 +51,7 @@
 
             <div class="modal-footer">
 
-              <button class="btn btn-primary"  data-dismiss="modal" routerLink='/products'>Ok</button>
+              <button class="btn btn-primary"  data-dismiss="modal" routerLink='/products' (click)="postProducts()">Ok</button>
                 </div>
                 </div>
                 </div>
