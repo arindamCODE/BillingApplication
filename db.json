@@ -1,0 +1,40 @@
+{
+  "productTable": [
+    {
+      "id": 1,
+      "productName": "Tropicana",
+      "price": 100,
+      "purchase": true
+    },
+    {
+      "id": 2,
+      "productName": "Real",
+      "price": 95,
+      "purchase": false
+    },
+    {
+      "id": 3,
+      "productName": "Apple",
+      "price": 80,
+      "purchase": false
+    },
+    {
+      "id": 4,
+      "productName": "DairyMilk",
+      "price": 90,
+      "purchase": false
+    },
+    {
+      "id": 5,
+      "productName": "Burger",
+      "price": 150,
+      "purchase": true
+    },
+    {
+      "id": 6,
+      "productName": "Pizza",
+      "price": 650,
+      "purchase": true
+    }
+  ]
+}
