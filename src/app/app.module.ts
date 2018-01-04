@@ -4,9 +4,11 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './components/products/products.component';
+import { ProductEntryComponent } from './components/product-entry/product-entry.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'products', pathMatch: 'full' },
+  { path: '', redirectTo: 'productEntry', pathMatch: 'full' },
+   { path: 'productEntry', component: ProductEntryComponent },
   { path: 'products', component: ProductsComponent }
 ];
 
@@ -14,7 +16,8 @@ const routes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    ProductsComponent
+    ProductsComponent,
+    ProductEntryComponent
   ],
   imports: [
     BrowserModule,
