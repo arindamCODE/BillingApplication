@@ -35,6 +35,12 @@
       "productName": "Pizza",
       "price": 650,
       "purchase": true
+    },
+    {
+      "id": 8,
+      "productName": "Nirma",
+      "price": 64,
+      "purchase": false
     }
   ]
 }
