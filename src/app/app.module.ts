@@ -6,10 +6,12 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './components/products/products.component';
 import { ProductEntryComponent } from './components/product-entry/product-entry.component';
+import { HttpClientService } from './services';
+import { GetProductsService } from './services';
 
 
 const routes: Routes = [
-  { path: '', redirectTo: 'productEntry', pathMatch: 'full' },
+  { path: '', redirectTo: 'products', pathMatch: 'full' },
    { path: 'productEntry', component: ProductEntryComponent },
   { path: 'products', component: ProductsComponent }
 ];
@@ -26,7 +28,8 @@ const routes: Routes = [
     RouterModule.forRoot(routes),
     HttpClientModule
   ],
-  providers: [HttpClientService],
+  providers: [HttpClientService,
+  GetProductsService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
