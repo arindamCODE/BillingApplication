@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { ProductTable } from '../../models/productTable';
 import { HttpClientService } from '../../services';
+import { environment } from '../../../environments/environment';
 
 @Injectable()
 export class PostProductsService {
@@ -12,7 +13,7 @@ export class PostProductsService {
   product: ProductTable;
   constructor(private httpClientService: HttpClientService) {
     this.purchase = false;
-    this.url = 'http://localhost:3004/productTable';
+    this.url = environment.url;
   }
   postProducts(product: ProductTable) {
     return this.httpClientService.post(product, this.url);
