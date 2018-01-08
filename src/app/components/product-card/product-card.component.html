@@ -1,0 +1,9 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{product.productName}}</h5>
+    <img class="card-img" src="../../../assets/product.jpg" alt="header" />
+    <p class="card-text">{{product.price}}</p>
+    <button *ngIf="type === true" class="btn btn-success" (click)="change(product)">Bought</button>
+    <button *ngIf="type === false" class="btn btn-primary" (click)="change1(product)">Buy</button>
+  </div>
+</div>

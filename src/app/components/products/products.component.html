@@ -1,13 +1,9 @@
 <div class="container">
   <div class="row">
     <div class="col-sm-3" *ngFor="let pro of product">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">{{pro.productName}}</h5>
-          <img class="card-img" src="../../../assets/product.jpg" alt="header" />
-          <p class="card-text">{{pro.price}}</p>
-        </div>
-      </div>
+      <app-product-card [product]="pro" [purchaseStatus]="pro.purchase"></app-product-card>
     </div>
   </div>
+
+  <button routerLink='/invoice' class="btn btn-primary" (click)="getDataByPurchase" id="submit">Submit</button>
 </div>

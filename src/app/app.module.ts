@@ -10,6 +10,8 @@ import { ProductEntryComponent } from './components/product-entry/product-entry.
 import { HttpClientService } from './services';
 import { PostProductsService } from './services';
 import { GetProductsService } from './services';
+import { ProductCardComponent } from './components/product-card/product-card.component';
+
 
 const routes: Routes = [
   { path: '', redirectTo: 'productEntry', pathMatch: 'full' },
@@ -22,6 +24,7 @@ const routes: Routes = [
   declarations: [
     AppComponent,
     ProductsComponent,
+    ProductCardComponent,
     ProductEntryComponent
   ],
   imports: [
