@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { NgForm } from '@angular/forms';
 import { PostProductsService } from '../../services';
+import { ProductTable } from '../../models/productTable';
 
 @Component({
   selector: 'app-product-entry',
@@ -8,28 +9,27 @@ import { PostProductsService } from '../../services';
   styleUrls: ['./product-entry.component.css']
 })
 export class ProductEntryComponent implements OnInit {
-  // @Output() clicked: EventEmitter<any>=new EventEmitter<any>();
   id: number;
   productName: string;
   price: number;
-
-
-  constructor(private postProductsService: PostProductsService) { }
-
+  purchase: boolean;
+  public product: ProductTable;
+  constructor(private postProductsService: PostProductsService) {
+    this.purchase = false;
+  }
   ngOnInit() {
   }
-
   addProduct(id: number, productName: string, price: number) {
     this.id = id;
     this.productName = productName;
     this.price = price;
-    console.log(this.id, this.productName, this.price);
+    this.product = new ProductTable(this.id, this.productName, this.price, this.purchase);
+    this.postProductsService.postProducts(this.product).subscribe(
+        res => {
+          console.log(res);
+        },
+        err => {
+          console.log('Error occured');
+        });
   }
-  postProducts() {
-    this.postProductsService.postProducts(this.id, this.productName, this.price).subscribe(result => {
-      
-      console.log(result);
-    });
-  }
-
 }
