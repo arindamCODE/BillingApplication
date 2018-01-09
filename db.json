@@ -10,13 +10,13 @@
       "id": 2,
       "productName": "Real",
       "price": 95,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 3,
       "productName": "Apple",
       "price": 80,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 4,
@@ -172,6 +172,24 @@
       "id": "98",
       "productName": "Jio",
       "price": "2200",
+      "purchase": false
+    },
+    {
+      "id": "111",
+      "productName": "apopo",
+      "price": "1111",
+      "purchase": false
+    },
+    {
+      "id": "99",
+      "productName": "goodday",
+      "price": "10",
+      "purchase": false
+    },
+    {
+      "id": "9999",
+      "productName": "goodday",
+      "price": "10",
       "purchase": false
     }
   ]

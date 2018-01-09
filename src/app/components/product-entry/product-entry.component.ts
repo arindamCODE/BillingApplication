@@ -9,6 +9,7 @@ import { ProductTable } from '../../models/productTable';
   styleUrls: ['./product-entry.component.css']
 })
 export class ProductEntryComponent implements OnInit {
+
   id: number;
   productName: string;
   price: number;
@@ -32,4 +33,5 @@ export class ProductEntryComponent implements OnInit {
           console.log('Error occured');
         });
   }
+
 }

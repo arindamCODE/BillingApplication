@@ -11,20 +11,6 @@
     <div class="form-group">
       <label for="productPrice"> Product Price:</label><input #price class="form-control" required>
     </div>
-    <button class="btn btn-primary" (click)='addProduct(id.value, productName.value, price.value)' data-toggle="modal" data-target="#MyModal">Submit</button>
+    <button class="btn btn-primary" (click)='addProduct(id.value, productName.value, price.value)'>Submit</button>
   </form>
 </div>
-<div id="MyModal"  class="modal fade"  role="dialog">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button class="close"  data-dismiss="modal">&times;</button>
-          </div>
-          <div class="modal-body">Your data has been posted successfully
-            </div>
-            <div class="modal-footer">
-              <button class="btn btn-primary"  data-dismiss="modal" routerLink='/products'>Ok</button>
-                </div>
-                </div>
-                </div>
-                </div>

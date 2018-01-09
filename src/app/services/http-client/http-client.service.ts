@@ -28,8 +28,14 @@ export class HttpClientService {
     console.error(errMsg);
     return Observable.throw(errMsg);
   }
-  post<T>(product: ProductTable, url: string) {
+  postData<T>(product: ProductTable, url: string) {
     return this.http.post(url, product).map((response: HttpResponse<T>) => {
+      const body = response || null;
+      return body;
+    }).catch(this.handleError);
+  }
+  putData<T>(product: ProductTable, url: string) {
+    return this.http.put(url, product).map((response: HttpResponse<T>) => {
       const body = response || null;
       return body;
     }).catch(this.handleError);
