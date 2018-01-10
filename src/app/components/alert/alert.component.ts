@@ -9,9 +9,13 @@ import { AlertService } from '../../services';
 })
 export class AlertComponent implements OnInit {
 
+  timer: any;
+  display: boolean;
   alerts: Alert[] = [];
 
-    constructor(private alertService: AlertService) { }
+    constructor(private alertService: AlertService) {
+      this.display = true;
+    }
 
     ngOnInit() {
         this.alertService.getAlert().subscribe((alert: Alert) => {
@@ -23,8 +27,11 @@ export class AlertComponent implements OnInit {
 
             // add alert to array
             this.alerts.push(alert);
+            this.hide();
         });
+
     }
+
 
     removeAlert(alert: Alert) {
         this.alerts = this.alerts.filter(x => x !== alert);
@@ -43,5 +50,12 @@ export class AlertComponent implements OnInit {
                 return 'alert alert-danger';
 
         }
+    }
+
+    hide() {
+      clearTimeout(this.timer);
+      this.timer = setTimeout(() => {
+        this.display = false;
+      }, 3000);
     }
 }

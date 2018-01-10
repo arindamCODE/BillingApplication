@@ -1,4 +1,3 @@
-
 import { Component, OnInit } from '@angular/core';
 import { NgForm, FormsModule } from '@angular/forms';
 import { PostProductsService, AlertService } from '../../services';
@@ -77,22 +76,8 @@ export class ProductEntryComponent implements OnInit {
         this.alertService.error('Unable to Post');
         this.loading = false;
 
-
     });
 
             }
-  // addProduct(id: number, productName: string, price: number) {
-  //   this.id = id;
-  //   this.productName = productName;
-  //   this.price = price;
-  //   this.product = new ProductTable(this.id, this.productName, this.price, this.purchase);
-  //   this.postProductsService.postProducts(this.product).subscribe(
-  //       res => {
-  //         console.log(res);
-  //       },
-  //       err => {
-  //         console.log('Error occured');
-  //       });
-  // }
 
 }

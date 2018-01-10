@@ -1,7 +1,7 @@
 import { environment } from './../../../environments/environment.prod';
 import { Injectable } from '@angular/core';
 import { PostProductTable } from '../../models/postProductTable';
-import { HttpClientService } from '../../services';
+import { HttpClientService } from '../http-client/http-client.service';
 
 @Injectable()
 export class PostProductsService {
