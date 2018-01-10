@@ -10,13 +10,13 @@
       "id": 2,
       "productName": "Real",
       "price": 95,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 3,
       "productName": "Apple",
       "price": 80,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 4,
@@ -245,6 +245,12 @@
       "price": 3456,
       "purchase": false,
       "id": "bLMPecV"
+    },
+    {
+      "productName": "bgvn",
+      "price": 98798,
+      "purchase": false,
+      "id": "~ULNk6N"
     }
   ]
 }

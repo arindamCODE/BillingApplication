@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule} from '@angular/forms';
-import {HttpClientModule} from '@angular/common/http';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { ProductsComponent } from './components/products/products.component';
@@ -12,6 +12,7 @@ import { PostProductsService } from './services';
 import { GetProductsService } from './services';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { AlertComponent } from './components/alert/alert.component';
+import { UpdateProductsService } from './services/update-products/update-products.service';
 
 
 const routes: Routes = [
@@ -38,7 +39,8 @@ const routes: Routes = [
   providers: [HttpClientService,
     PostProductsService,
     GetProductsService,
-    AlertService
+    AlertService,
+    UpdateProductsService
   ],
   bootstrap: [AppComponent]
 })

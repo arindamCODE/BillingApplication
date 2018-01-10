@@ -35,4 +35,10 @@ export class HttpClientService {
       return body;
     }).catch(this.handleError);
   }
+  putData<T>(product: ProductTable, url: string) {
+    return this.http.put(url, product).map((response: HttpResponse<T>) => {
+      const body = response || null;
+      return body;
+    }).catch(this.handleError);
+  }
 }
