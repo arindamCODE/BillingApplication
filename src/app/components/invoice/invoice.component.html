@@ -1,0 +1,20 @@
+<div class="container">
+  <h1>Invoice</h1>
+  <table class="table">
+    <thead>
+      <th>Products</th>
+      <th>Prices</th>
+    </thead>
+    <tbody>
+      <tr *ngFor="let pro of product1">
+        <td>{{pro.productName}}</td>
+        <td>{{pro.price}}
+      </tr>
+      <tr>
+        <td><strong>Total Price</strong></td>
+        <td><strong>{{price}}</strong></td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
+  
