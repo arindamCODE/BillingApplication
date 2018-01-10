@@ -1,9 +1,10 @@
+import { Directive} from '@angular/core';
 import { Component, OnInit } from '@angular/core';
 import { NgForm, FormsModule } from '@angular/forms';
 import { PostProductsService, AlertService } from '../../services';
 import { PostProductTable } from '../../models/postProductTable';
 import { FormGroup, FormControl, FormArray, FormBuilder } from '@angular/forms';
-import { Directive, forwardRef, Attribute } from '@angular/core';
+import {  forwardRef, Attribute } from '@angular/core';
 import { NG_VALIDATORS, Validator, Validators, AbstractControl, ValidatorFn } from '@angular/forms';
 import { Router } from '@angular/router';
 

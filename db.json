@@ -4,25 +4,25 @@
       "id": 1,
       "productName": "Tropicana",
       "price": 100,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 2,
       "productName": "Real",
       "price": 95,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 3,
       "productName": "Apple",
       "price": 80,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 4,
       "productName": "DairyMilk",
       "price": 90,
-      "purchase": false
+      "purchase": true
     },
     {
       "id": 5,
@@ -52,7 +52,6 @@
       "productName": "askd",
       "price": 1920,
       "purchase": false,
-<<<<<<< HEAD
       "id": "~ULNk6N"
     },
     {
@@ -114,9 +113,48 @@
       "price": 88,
       "purchase": false,
       "id": "rRw0TPW"
-=======
+    },
+    {
+      "productName": "jkczj",
+      "price": 894538,
+      "purchase": false,
       "id": 11
->>>>>>> b28838e6adc4eec5d0fabc399d3411dd36ad309b
+    },
+    {
+      "productName": "njdzb c",
+      "price": 54645,
+      "purchase": false,
+      "id": 12
+    },
+    {
+      "productName": "ldih",
+      "price": 11,
+      "purchase": false,
+      "id": 13
+    },
+    {
+      "productName": "okok",
+      "price": 11,
+      "purchase": false,
+      "id": 14
+    },
+    {
+      "productName": "p0w9epfujc",
+      "price": 11,
+      "purchase": false,
+      "id": 15
+    },
+    {
+      "productName": "kjsajdn",
+      "price": 237,
+      "purchase": false,
+      "id": 16
+    },
+    {
+      "productName": "xcvbnm",
+      "price": 5678,
+      "purchase": false,
+      "id": 17
     }
   ]
 }
