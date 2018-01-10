@@ -1,7 +1,7 @@
+import { environment } from './../../../environments/environment.prod';
 import { Injectable } from '@angular/core';
-import { ProductTable } from '../../models/productTable';
-import { HttpClientService } from '../http-client/http-client.service';
-import { environment } from '../../../environments/environment';
+import { PostProductTable } from '../../models/postProductTable';
+import { HttpClientService } from '../../services';
 
 @Injectable()
 export class PostProductsService {
@@ -10,12 +10,12 @@ export class PostProductsService {
   price: number;
   purchase: boolean;
   url: string;
-  product: ProductTable;
+  product: PostProductTable;
   constructor(private httpClientService: HttpClientService) {
     this.purchase = false;
     this.url = environment.url;
   }
-  postProducts(product: ProductTable) {
-    return this.httpClientService.postData(product, this.url);
+  postProducts(product: PostProductTable) {
+    return this.httpClientService.post(product, this.url);
   }
 }

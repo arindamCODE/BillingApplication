@@ -4,6 +4,7 @@ import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
 import 'rxjs/add/operator/map';
 import { ProductTable } from '../../models/productTable';
+import { PostProductTable } from '../../models/postProductTable';
 
 @Injectable()
 export class HttpClientService {
@@ -28,7 +29,7 @@ export class HttpClientService {
     console.error(errMsg);
     return Observable.throw(errMsg);
   }
-  postData<T>(product: ProductTable, url: string) {
+  post<T>(product: PostProductTable, url: string) {
     return this.http.post(url, product).map((response: HttpResponse<T>) => {
       const body = response || null;
       return body;
