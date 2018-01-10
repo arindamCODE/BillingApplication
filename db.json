@@ -10,13 +10,13 @@
       "id": 2,
       "productName": "Real",
       "price": 95,
-      "purchase": true
+      "purchase": false
     },
     {
       "id": 3,
       "productName": "Apple",
       "price": 80,
-      "purchase": true
+      "purchase": false
     },
     {
       "id": 4,

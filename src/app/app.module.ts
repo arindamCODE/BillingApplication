@@ -11,7 +11,7 @@ import { HttpClientService } from './services';
 import { PostProductsService } from './services';
 import { GetProductsService } from './services';
 import { ProductCardComponent } from './components/product-card/product-card.component';
-import { UpdateProductsService } from './services/update-products/update-products.service';
+import { UpdateProductsService } from './services';
 
 
 const routes: Routes = [
