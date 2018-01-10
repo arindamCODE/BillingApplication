@@ -1,3 +1,5 @@
+import { GetProductsService } from './../../services/get-products/get-products.service';
+import { ProductTable } from './../../productTable';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InvoiceComponent implements OnInit {
 
-  constructor() { }
+  public product: ProductTable[];
+  constructor( private object: GetProductsService) { }
 
   ngOnInit() {
   }
 
-}
+  }
+
