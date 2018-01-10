@@ -4,19 +4,19 @@
       "id": 1,
       "productName": "Tropicana",
       "price": 100,
-      "purchase": true
+      "purchase": false
     },
     {
       "id": 2,
       "productName": "Real",
       "price": 95,
-      "purchase": true
+      "purchase": false
     },
     {
       "id": 3,
       "productName": "Apple",
       "price": 80,
-      "purchase": true
+      "purchase": false
     },
     {
       "id": 4,
@@ -28,48 +28,12 @@
       "id": 5,
       "productName": "Burger",
       "price": 150,
-      "purchase": true
+      "purchase": false
     },
     {
       "id": 6,
       "productName": "Pizza",
       "price": 650,
-      "purchase": true
-    },
-    {
-      "id": 8,
-      "productName": "Nirma",
-      "price": 64,
-      "purchase": false
-    },
-    {
-      "id": "100",
-      "productName": "alopspsps",
-      "price": "1",
-      "purchase": false
-    },
-    {
-      "id": "10101",
-      "productName": "Ishika",
-      "price": "11",
-      "purchase": false
-    },
-    {
-      "id": "9",
-      "productName": "Ishika aguabn",
-      "price": "10",
-      "purchase": false
-    },
-    {
-      "id": "NvDmQkZ",
-      "productName": "aaa",
-      "price": "11",
-      "purchase": false
-    },
-    {
-      "id": "oFS17jC",
-      "productName": "aHNCCAJ",
-      "price": "11",
       "purchase": false
     },
     {
@@ -79,178 +43,10 @@
       "purchase": true
     },
     {
-      "id": "aaaaaa",
-      "productName": "Tropicana",
-      "price": 100,
-      "purchase": true
-    },
-    {
-      "id": "18",
-      "productName": "Ishika",
-      "price": "11",
-      "purchase": false
-    },
-    {
-      "id": "89",
-      "productName": "Arindam",
-      "price": "11",
-      "purchase": false
-    },
-    {
-      "id": "20",
-      "productName": "Ishika agina agina",
-      "price": "11",
-      "purchase": false
-    },
-    {
-      "id": "21",
-      "productName": "aaaaaaaaaaaaaaaaaaaa",
-      "price": "1",
-      "purchase": false
-    },
-    {
-      "id": "22",
-      "productName": "qkwidhjk",
-      "price": "1",
-      "purchase": false
-    },
-    {
-      "id": "30",
-      "productName": "Johnson",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "31",
-      "productName": "EY",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "32",
-      "productName": "GM",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "40",
-      "productName": "Maruti",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "50",
-      "productName": "Suzuki",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "51",
-      "productName": "Suzuki India",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "60",
-      "productName": "Hello",
-      "price": "11",
-      "purchase": false
-    },
-    {
-      "id": "70",
-      "productName": "Lassi",
-      "price": "100",
-      "purchase": false
-    },
-    {
-      "id": "88",
-      "productName": "Car",
-      "price": "1000",
-      "purchase": false
-    },
-    {
-      "productName": "IceCream",
-      "price": 77,
-      "purchase": false,
-      "id": "8pFPOxd"
-    },
-    {
-      "productName": "m",
-      "price": 7890,
-      "purchase": false,
-      "id": "TwLsTyf"
-    },
-    {
       "productName": "Nirma",
-      "price": 7889,
+      "price": 70,
       "purchase": false,
       "id": "iu8RFp9"
-    },
-    {
-      "productName": "ishika",
-      "price": 980,
-      "purchase": false,
-      "id": "fO6I~KF"
-    },
-    {
-      "productName": "jksdajoik",
-      "price": 87,
-      "purchase": false,
-      "id": "_mnKOUZ"
-    },
-    {
-      "productName": "ndsnm",
-      "price": 758945,
-      "purchase": false,
-      "id": "JYgu6pI"
-    },
-    {
-      "productName": "hjhb",
-      "price": 889,
-      "purchase": false,
-      "id": "Eyj2SYB"
-    },
-    {
-      "productName": "hyugyggft",
-      "price": 76687,
-      "purchase": false,
-      "id": "Mfwh8py"
-    },
-    {
-      "productName": "jkdsak",
-      "price": 466,
-      "purchase": false,
-      "id": "QP9sbvI"
-    },
-    {
-      "productName": "sajh",
-      "price": 231,
-      "purchase": false,
-      "id": "Di9aqfF"
-    },
-    {
-      "productName": "asjkhd",
-      "price": 12,
-      "purchase": false,
-      "id": "~50fQcz"
-    },
-    {
-      "productName": "bhgh",
-      "price": 243,
-      "purchase": false,
-      "id": "Wnj0rp7"
-    },
-    {
-      "productName": "jhgiuj",
-      "price": 3456,
-      "purchase": false,
-      "id": "bLMPecV"
-    },
-    {
-      "productName": "bgvn",
-      "price": 98798,
-      "purchase": false,
-      "id": "~ULNk6N"
     }
   ]
 }

@@ -13,11 +13,13 @@ import { GetProductsService } from './services';
 import { ProductCardComponent } from './components/product-card/product-card.component';
 import { AlertComponent } from './components/alert/alert.component';
 import { UpdateProductsService } from './services/update-products/update-products.service';
+import { InvoiceComponent } from './components/invoice/invoice.component';
 
 
 const routes: Routes = [
   { path: '', redirectTo: 'productEntry', pathMatch: 'full' },
   { path: 'productEntry', component: ProductEntryComponent },
+  { path: 'invoice', component: InvoiceComponent },
   { path: 'products', component: ProductsComponent }
 ];
 
@@ -28,7 +30,8 @@ const routes: Routes = [
     ProductsComponent,
     ProductCardComponent,
     ProductEntryComponent,
-    AlertComponent
+    AlertComponent,
+    InvoiceComponent
   ],
   imports: [
     BrowserModule,
